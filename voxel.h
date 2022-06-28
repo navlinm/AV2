@@ -2,7 +2,8 @@
 #define VOXEL_H
 
 struct Voxel{
-  float r, g, b, a;
+  float r, g, b;
+  float a;
   bool isOn;
 };
 
